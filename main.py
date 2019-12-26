@@ -15,7 +15,7 @@ app = Flask(__name__)
 print("test nono")
 @app.route('/')
 def hello():
-    return '恭喜您成功地发布了一个运行在云端的python程序 hello-GITHUB'
+    return '恭喜您成功地发布了一个运行在云端的python程序 hello-github -ilanlin-branch-1'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=8080)
